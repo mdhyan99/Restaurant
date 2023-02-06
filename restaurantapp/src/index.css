@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* NavBar css */
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    
+    top: 0;
+    z-index: 1;
+    background-color: aliceblue;
+  }
+.res-name {
+    color: brown;
+}
+
+.icon-korb {
+    color: rgba(49, 49, 229, 0.947);
+    font-size: 25px;
+}
+
+
+.korb-login {
+    display: flex;
+    justify-content: space-around;
+    color: blue;
+    font-size: 25px;
+    background-color: rgba(250, 235, 215, 0.384);
+    cursor: pointer;
+}
+
+/* Links css  */
+.all-link {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    color: coral;
+    cursor: pointer;
+}
+.link {
+    text-decoration: none;
+    color: #b45b35bb;
+}
+.link:hover {
+    color: rgb(216, 26, 26);
+}
+
+/* Categroy css */
+.card {
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px;
+}
+.card img {
+    aspect-ratio: 6/1;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+
+
+
+/* ProductInfo css  */
+.item-description {
+    color: #8c8c8c;
+    font-family: Almarai;
+    padding-top: 10px;
+}
+.item-title {
+    color: #573121;
+    font-family: Almarai;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.item-price {
+    color: #ef0000;
+    font-family: Almarai;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+/* ProductCard */
+
+.icon-delet {
+    color: rgb(163, 48, 48);
+    font-size: 22px;
+}
+
+/* IconProd css */
+.span-like {
+    color: rgb(163, 48, 48);
+    font-size: 13px;
+    position: absolute;
+    margin-top: 12px;
+}
+
+.icon {
+    margin-top: 25px;
+    padding-left: 35px;
+}
+
+/* warenkorb FavoritProduct css */
+.title_h1 {
+    text-align: center;
+    color: #ecd562;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.warenkorb {
+    padding: 50px;
+}
+
+.border {
+    border: 1px solid gray;
+    padding: 30px;
+}
